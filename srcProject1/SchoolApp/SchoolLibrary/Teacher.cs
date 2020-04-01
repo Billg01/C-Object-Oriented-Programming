@@ -9,5 +9,11 @@ namespace SchoolLibrary
     public class Teacher : Person
     {
         public string Subject { get; set; }
+
+        public override float ComputeGradeAverage()
+        {
+            //Todo: fix the implementation later
+            return 0.0f;
+        }
     }
 }
