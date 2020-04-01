@@ -165,12 +165,13 @@
             this.btnPushToTalk.TabIndex = 14;
             this.btnPushToTalk.Text = "Push to Test";
             this.btnPushToTalk.UseVisualStyleBackColor = true;
+            this.btnPushToTalk.Click += new System.EventHandler(this.btnPushToTalk_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(885, 599);
+            this.ClientSize = new System.Drawing.Size(894, 702);
             this.Controls.Add(this.btnPushToTalk);
             this.Controls.Add(this.txtTwitter);
             this.Controls.Add(this.txtPhone);
